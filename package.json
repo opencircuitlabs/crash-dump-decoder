@@ -1,0 +1,12 @@
+{
+  "name": "@opencircuitlabs/crash-dump-decoder",
+  "version": "1.0.0",
+  "description": "Cortex-M and RISC-V crash frames, fault registers, symbols, and backtraces",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": { "crash-decode": "src/cli.js" },
+  "scripts": { "test": "node --test", "check": "npm test" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+{
+  "architecture": "cortex-m",
+  "deviceId": "board-42",
+  "firmware": "1.4.2+abc123",
+  "capturedAt": "2026-10-01T00:00:00Z",
+  "frame": { "r0": 0, "r1": 1, "r2": 2, "r3": 3, "r12": 12, "lr": 134218241, "pc": 134218497, "xpsr": 16777219 },
+  "faultRegisters": { "cfsr": 33554432, "hfsr": 1073741824, "dfsr": 0, "mmfar": 0, "bfar": 536870912 },
+  "symbols": [
+    { "name": "main", "address": 134217728, "size": 256, "type": "function" },
+    { "name": "worker", "address": 134218240, "size": 128, "type": "function" },
+    { "name": "divide", "address": 134218496, "size": 64, "type": "function" }
+  ],
+  "stack": { "address": 536870912, "dataHex": "010200080103000800000000" }
+}
